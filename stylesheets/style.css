@@ -2,14 +2,12 @@
 @import 'content.css'; /* контент / содержимое  */
 @import 'responsive.css'; /* адаптивность */
 @font-face {
-  font-family: 'kolikoRegular';
+  font-family: "koliko";
   src: url('../fonts/koliko-Regular.ttf') format('truetype');
-  font-style: normal;
-  font-weight: normal;
+
 }
 @font-face {
-  font-family: 'Round Love';
+  font-family: "RoundLove";
   src: url('../fonts/Round-Love.ttf') format('truetype');
-  font-style: normal;
-  font-weight: normal;
+
 }
