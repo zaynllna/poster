@@ -3,7 +3,7 @@ a {
   text-decoration: none;
 }
 p {
-  font-family: 'koliko';
+  font-family: 'kolikoRegular';
   font-style: normal;
   font-weight: 400;
   font-size: 1.563vw;
@@ -37,7 +37,7 @@ input {
   width: 35.99vw;
   height: 5.208vw;
 
-  font-family: 'koliko';
+  font-family: 'kolikoRegular';
   font-style: normal;
   font-weight: 400;
   font-size: 2.188vw;
@@ -303,7 +303,7 @@ input {
   left: 43.854vw;
   top: 45vw;
 
-  font-family: 'koliko';
+  font-family: 'kolikoRegular';
   font-style: normal;
   font-weight: 400;
   font-size: 2.188vw;
@@ -318,7 +318,7 @@ input {
   left: 41.198vw;
   top: 48.333vw;
 
-  font-family: 'koliko-regular';
+  font-family: 'kolikoRegular';
   font-style: normal;
   font-weight: 400;
   font-size: 1.667vw;
