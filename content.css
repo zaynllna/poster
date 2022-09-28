@@ -1,0 +1,376 @@
+a {
+  color: #2c2c2c;
+  text-decoration: none;
+}
+p {
+  font-family: kolikoRegular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.563vw;
+  line-height: 1.875vw;
+  color: #979797;
+}
+h1 {
+  font-family: RoundLove;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.979vw;
+  line-height: 2.24vw;
+  color: #49acf3;
+}
+body {
+  overflow: hidden;
+}
+input {
+  outline: none;
+  border: none;
+}
+.face {
+  pointer-events: none;
+}
+.cloud_text {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  top: 50vh;
+  left: 30vw;
+  width: 35.99vw;
+  height: 5.208vw;
+
+  font-family: kolikoRegular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.188vw;
+  line-height: 2.604vw;
+  text-transform: uppercase;
+
+  color: #222222;
+}
+.maintxt {
+  position: absolute;
+  width: 11.667vw;
+  height: 5.729vw;
+  left: 44.167vw;
+  top: 7.135vw;
+}
+.txt1 {
+  position: absolute;
+  width: 43.49vw;
+  height: 2.24vw;
+  left: 28.229vw;
+  top: 46.354vw;
+
+  font-family: kolikoRegular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.875vw;
+  line-height: 2.24vw;
+
+  color: black;
+}
+.txt2 {
+  font-family: kolikoRegular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.563vw;
+  line-height: 1.875vw;
+  /* identical to box height */
+
+  color: #2c2c2c;
+}
+.sh1 {
+  position: absolute;
+  width: 38.438vw;
+  height: 22.604vw;
+  left: 15.938vw;
+  top: 7.448vw;
+}
+.sh2 {
+  position: absolute;
+  width: 48.333vw;
+  height: 34.688vw;
+  left: 39.323vw;
+  top: 2.448vw;
+}
+.sh3 {
+  position: absolute;
+  width: 40.052vw;
+  height: 23.438vw;
+  left: 5.833vw;
+  top: 22.5vw;
+}
+.sh4 {
+  position: absolute;
+  width: 67.708vw;
+  height: 33.854vw;
+  left: 43.75vw;
+  top: 16.146vw;
+
+  transform: rotate(8.91deg);
+}
+.sh5 {
+  position: absolute;
+  width: 45.573vw;
+  height: 32.552vw;
+  left: 28.229vw;
+  top: 17.344vw;
+}
+.cl1 {
+  position: absolute;
+  width: 34.583vw;
+  height: 20.052vw;
+  left: 17.188vw;
+  top: 8.854vw;
+  transform: rotate(-360deg);
+  animation: cl1 10s linear 0s infinite normal forwards;
+  cursor: pointer;
+}
+.cl2 {
+  position: absolute;
+  width: 41.667vw;
+  height: 26.042vw;
+  left: 42.188vw;
+  top: 6.25vw;
+  animation: cl1 10s linear 0s infinite normal forwards;
+  cursor: pointer;
+}
+.cl3 {
+  position: absolute;
+  width: 38.229vw;
+  height: 21.51vw;
+  left: 59.896vw;
+  top: 21.615vw;
+  transform: rotate(10deg);
+  animation: cl1 15s linear 0s infinite normal forwards;
+  cursor: pointer;
+}
+.cl4 {
+  position: absolute;
+  width: 38.229vw;
+  height: 21.51vw;
+  left: 5.833vw;
+  top: 22.5vw;
+  animation: cl1 13s linear 0s infinite normal forwards;
+  cursor: pointer;
+}
+.cl5 {
+  position: absolute;
+  width: 41.667vw;
+  height: 30.208vw;
+  left: 30.208vw;
+  top: 18.49vw;
+  animation: cl1 15s linear 0s infinite normal forwards;
+  cursor: pointer;
+}
+@keyframes cl1 {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70% {
+    transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60% {
+    transform: translateX(10px);
+  }
+
+  80% {
+    transform: translateX(8px);
+  }
+
+  90% {
+    transform: translateX(-8px);
+  }
+}
+.f1 {
+  position: absolute;
+  width: 28.958vw;
+  height: 17.708vw;
+  left: 8.542vw;
+  top: 16.198vw;
+  opacity: 0;
+  animation: cl1 15s linear 0s infinite normal forwards;
+}
+.f1:hover {
+  opacity: 1;
+}
+.f2 {
+  position: absolute;
+  width: 28.958vw;
+  height: 16.198vw;
+  left: 60.938vw;
+  top: 11.667vw;
+  opacity: 0;
+  animation: cl1 15s linear 0s infinite normal forwards;
+}
+.f2:hover {
+  opacity: 1;
+}
+
+.f3 {
+  position: absolute;
+  width: 15.26vw;
+  height: 29.583vw;
+  left: 16.771vw;
+  top: 26.615vw;
+  opacity: 0;
+  animation: cl1 15s linear 0s infinite normal forwards;
+}
+
+.f3:hover {
+  opacity: 1;
+}
+
+.f4 {
+  position: absolute;
+  width: 13.854vw;
+  height: 28.438vw;
+  left: 42.292vw;
+  top: 27.969vw;
+  opacity: 0;
+  animation: cl1 15s linear 0s infinite normal forwards;
+}
+
+.f4:hover {
+  opacity: 1;
+}
+
+.f5 {
+  position: absolute;
+  width: 18.698vw;
+  height: 28.49vw;
+  left: 69.271vw;
+  top: 28.542vw;
+  opacity: 0;
+  animation: cl1 15s linear 0s infinite normal forwards;
+}
+
+.f5:hover {
+  opacity: 1;
+}
+.cloud1 {
+  position: absolute;
+  width: 110.167vw;
+  height: 52.083vw;
+  right: 2vw;
+  animation: cl1 25s linear 0s infinite normal forwards;
+}
+.cloud2 {
+  position: absolute;
+  width: 52.521vw;
+  height: 21.094vw;
+  top: 35.24vw;
+  animation: cl1 15s linear 0s infinite normal forwards;
+}
+.blue {
+  position: absolute;
+  width: 50.521vw;
+  height: 19.948vw;
+  left: 24.74vw;
+  top: 36.302vw;
+}
+.back {
+  position: absolute;
+  width: 8.49vw;
+  height: 6.51vw;
+  left: 5.26vw;
+  top: 16.615vw;
+}
+.h12 {
+  position: absolute;
+  width: 9.323vw;
+  height: 3.125vw;
+  left: 45.313vw;
+  top: 5vw;
+
+  font-family: RoundLove;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.76vw;
+  line-height: 3.125vw;
+}
+.p2 {
+  position: absolute;
+  width: 12.292vw;
+  height: 2.604vw;
+  left: 43.854vw;
+  top: 45vw;
+
+  font-family: koliko;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.188vw;
+  line-height: 2.604vw;
+  color: black;
+  z-index: 4;
+}
+.p3 {
+  position: absolute;
+  width: 20.875vw;
+  height: 1.979vw;
+  left: 41.198vw;
+  top: 48.333vw;
+
+  font-family: kolikoRegular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.667vw;
+  line-height: 1.979vw;
+
+  color: #ffffff;
+}
+.cool {
+  position: absolute;
+  width: 70vw;
+  height: 60.625vw;
+  left: 16.146vw;
+}
+.form-split {
+  position: absolute;
+  width: 29.375vw;
+  height: 13.958vw;
+  left: 32vw;
+  top: 15.573vw;
+}
+hr {
+  height: 0px;
+  left: 24.74vw;
+  top: 19.844vw;
+
+  border: 0.1vw solid #49acf3;
+  border-radius: 3vw;
+}
+.text4 {
+  position: absolute;
+  width: 34.167vw;
+  height: 2.604vw;
+  left: 70.01vw;
+  top: 15.469vw;
+}
+.text5 {
+  position: absolute;
+  width: 34.167vw;
+  height: 2.604vw;
+  left: 82.01vw;
+  top: 15.469vw;
+}
+.text5:hover {
+  opacity: 0.4;
+}
+.text4:hover {
+  opacity: 0.4;
+}
+.buy {
+  position: absolute;
+  width: 20.208vw;
+  height: 4.635vw;
+  left: 2.396vw;
+  top: 2.552vw;
+}
